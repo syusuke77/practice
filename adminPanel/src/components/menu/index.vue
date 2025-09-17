@@ -103,8 +103,8 @@ const changeCollapse = () => {
 <style lang="less" scoped>
 .menu {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    flex: 1;
     height: 100%;
     .arrow-icon {
         width: 35px;

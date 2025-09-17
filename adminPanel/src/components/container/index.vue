@@ -34,17 +34,20 @@
         width: 100%;
         height: 100vh;
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         .header {
             width: 100%;
         }
         .content {
             width: 100%;
+            display: flex;
             flex: 1;
         }
     }
     .fixed-container {
-        
+        overflow: hidden;
+        .content {
+            overflow: auto;
+        }
     }
 </style>

@@ -27,3 +27,19 @@ const props=defineProps({
     }
 })
 </script>
+
+<style lang="less" scoped>
+.el-breadcrumb {
+    :deep(.el-breadcrumb__item) {
+        .el-breadcrumb__inner {
+            font-weight: normal;
+        }
+    }
+    :deep(.el-breadcrumb__item):last-child {
+        .el-breadcrumb__inner {
+            font-weight: bold;
+            color: @black-color;
+        }
+    }
+}
+</style>

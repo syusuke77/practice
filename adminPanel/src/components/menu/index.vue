@@ -104,7 +104,6 @@ const changeCollapse = () => {
 .menu {
     display: flex;
     align-items: center;
-    flex: 1;
     height: 100%;
     .arrow-icon {
         width: 35px;

@@ -18,6 +18,7 @@ app.use(ElementPlus, {
   locale: zhCn,
 })
 app.use(MyComponentsPlugin);
+
 app.use(createPinia())
 app.use(router)
 
